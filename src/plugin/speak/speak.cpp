@@ -11,7 +11,8 @@ PLUGIN(SpeakPlugin, "Speak Plugin", "r:say r:say_en")
 
 SpeakPlugin::SpeakPlugin()
 {
-    female = popen("festival_client", "w");
+    //female = popen("festival_client", "w");
+    female = NULL;
     if( female == NULL)
       cout << "ERROR starting festival client" << endl;
 
@@ -26,7 +27,7 @@ SpeakPlugin::~SpeakPlugin()
     pclose(male);
 }
 
-void SpeakPlugin::replace_chars(string& input)
+void SpeakPlugin::replace_chars(string& input) // german chars replacement
 {
   size_t pos;
 
