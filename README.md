@@ -1,8 +1,8 @@
-= About
+=About
 
 This is a Chatbot and Server running a database for various purpose
 
-= Dependencies
+=Dependencies
 
 for the speak plugin it would be good to have festival or espeak installed
 
