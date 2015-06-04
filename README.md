@@ -4,6 +4,8 @@ This is a Chatbot and Server running a database for various purpose
 
 = Dependencies
 
+for the speak plugin it would be good to have festival or espeak installed
+
 iniReader <-- GPLv3. https://github.com/bmaynard/iniReader
 Sockets <-- GPLv3. http://www.alhem.net/Sockets/
 gloox  <-- GPLv3. http://camaya.net/gloox/
